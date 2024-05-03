@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <style>
+    * {
+      margin: 0px;
+      box-sizing: border-box;
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/web1990.css" />
+  <link rel="stylesheet" href="assets/css/monify.min.css" />
+  <link rel="stylesheet" href="assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" width="120" alt="logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav main-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Get a Quote</a>
+            </li>
+          </ul>
+          <button class="btn btn-theme-primary text-uppercase">
+            <span class="me-2">Contact</span>
+            <img src="assets/images/hi.png" class="object-fit-contain" width="28" height="27" alt="Hi" />
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Main-->
+  <!--Main-->
+  <!--Main-->
+  <!--Main-->
+  <!--Main-->
+  <!--Main-->
+  <div class="main-body">
+    <div class="hero">
+      <div class="container-fluid row"></div>
+      <center>
+        <p>Things happen when you it!</p>
+        <span>Drop us a message or give us a call; our team of experts is all set to turn your idea into something
+          big!</span>
+        <div>
+          <p>My name is</p>
+          <input type="text" class="name special" placeholder="Your name">
+          <div class="mt-4"></div>
+          <button id="controller" class="btn btn-theme-primary text-uppercase special-glow submit0">
+            <span class="me-2 submit0">GET STARTED</span>
+          </button>
+        </div>
+      </center>
+    </div>
+    <p class="pline mt-3">Find us anywhere virtually, but physically only in</p>
+    <div class="canada"></div>
+    <img src="assets/images/gradient glass (16).png" alt="" class="bg-obs-1">
+    <center class="former-top">
+      <div class="frame">
+        <section>
+          <div>
+            <p class="s2-c-d1">Drop us a line</p>
+          </div>
+
+          <div>
+            <p class="s2-c-d2">INFO@ARROW7.com <img src="assets/images/arrow-box.png" alt=""></p>
+          </div>
+          <div class="spans-block">
+            <span class="call-s">GIVE US A CALL</span>
+            <div class="line-s"></div><span class="num-s">0326 9624584</span>
+          </div>
+        </section>
+
+        <div class="sub-footer">
+          <p class="sub-ps clr-white fw-bold">OUR LOCATION</p>
+          <p class="sub-pw">ARROW SEVEN, DHA PHASE 6, LAHORE</p>
+          <p class="sub-ps" style="color: #425CC6;">FIND US ON GOOGLE MAPS</p>
+        </div>
+      </div>
+    </center>
+    <div class="mt-3 d-none d-sm-block"></div>
+    <img src="assets/images/gradient glass (13).png" class="d-none d-md-block artifact" alt="">
+  </div>
+  <!-- endMain     -->
+  <!-- endMain     -->
+  <!-- endMain     -->
+  <!-- endMain     -->
+  <!-- endMain     -->
+  <!-- endMain     -->
+
+  <script>
+    $(".slider-for").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: ".slider-nav",
+    });
+    $(".slider-nav").slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: ".slider-for",
+      dots: false,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      centerPadding: "60px",
+      focusOnSelect: true,
+      variableWidth: true,
+      centerMode: true, // Add this line
+      initialSlide: 2,
+    });
+  </script>
+  <div class="footer">
+    <div class="container z-1 position-relative">
+      <div class="row">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="d-flex">
+                <div class="arrow-section">
+                  <img src="assets/images/arrow-border.png" class="w-100" alt="arrow-border" />
+                  <img src="assets/images/arrow-up.png" alt="arrow-up" />
+                </div>
+                <div class="ms-5 d-flex flex-column justify-content-around">
+                  <div>
+                    <span class="text-social-links"><a href="#">Twitter</a></span>
+                    <span class="text-social-links mx-1">/</span>
+                    <span class="text-social-links"><a href="#">Facebook</a></span>
+                    <span class="text-social-links mx-1">/</span>
+                    <span class="text-social-links"><a href="#">Instagram</a></span>
+                    <span class="text-social-links mx-1">/</span>
+                    <span class="text-social-links"><a href="#">Linkedin</a></span>
+                  </div>
+                  <div>
+                    <span class="text-white">Working
+                      <img src="assets/images/globe.png" width="22" height="22" alt="" />
+                      worldwide. <br />Based in Lahore.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Design</a></li>
+                  <li><a href="#">Develop</a></li>
+                  <li><a href="#">Market</a></li>
+                </ul>
+                <div class="footer-menu-bar"></div>
+                <ul>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Get a Quote</a></li>
+                  <li><a href="#">Terms and Conditions</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="w-100 mt-8">
+            <img src="assets/images/footer.png" class="w-100" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="assets/images/footer-inner.png" class="footer-inner" alt="" />
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        let topPos = $(this).scrollTop();
+        let landingPage = $(".header");
+
+        if (topPos === 0) {
+          landingPage.css({
+            "background-color": "transparent",
+            "backdrop-filter": "blur(0)",
+          });
+        } else {
+          landingPage.css({
+            "background-color": "rgba(240,240,240,0.41)",
+            "backdrop-filter": "blur(5px)",
+          });
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
